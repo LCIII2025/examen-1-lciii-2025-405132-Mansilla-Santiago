@@ -4,8 +4,8 @@ import java.util.*;
 
 public class Estacionamiento {
     private final int capacidadMaxima = 50;
-    private final Map<String, Ticket> vehiculosEstacionados = new HashMap<>();
-    private final Map<String, Cliente> clientesRegistrados = new HashMap<>();
+    private final Map<String, Ticket> vehiculosEstacionados = new HashMap<>(); //Patente / Ticket
+    private final Map<String, Cliente> clientesRegistrados = new HashMap<>();   //DNI / Cliente
 
     public boolean ingresarVehiculo(String dni, String nombre, Vehiculo vehiculo) {
         // TODO implementar la logica para registrar el ingreso de un nuevo vehiculo en el parking

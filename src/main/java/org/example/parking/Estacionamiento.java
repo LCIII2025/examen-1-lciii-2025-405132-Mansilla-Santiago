@@ -44,7 +44,7 @@ public class Estacionamiento {
 
         Ticket ticket = vehiculosEstacionados.get(patente);
         ticket.marcarSalida();
-               
+
         vehiculosEstacionados.remove(patente);
 
         return ticket;

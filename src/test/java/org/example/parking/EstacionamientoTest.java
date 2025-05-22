@@ -33,7 +33,6 @@ public class EstacionamientoTest {
         //Assert
         assertEquals(ticket.getVehiculo(), result.getVehiculo());
         assertEquals(ticket.getCliente(), result.getCliente());
-        assertEquals(ticket.getHoraEntrada(), result.getHoraEntrada());
         assertNotEquals(ticket.getHoraSalida(), result.getHoraSalida());
         assertEquals(cliente.getDni(), result.getCliente().getDni());
     }

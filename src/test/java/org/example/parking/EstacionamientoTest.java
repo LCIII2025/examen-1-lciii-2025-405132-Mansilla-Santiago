@@ -9,10 +9,6 @@ import static org.junit.Assert.assertNotNull;
 
 public class EstacionamientoTest {
 
-    // @Autowired
-    // public  Map<String, Ticket> vehiculosEstacionados = new HashMap<>();
-    // vehiculosEstacionados.put("BH4GJGJ", ticket);
-
     @Test
     public void testRetirarVehiculo() throws Exception {
         //DONE test

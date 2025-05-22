@@ -4,12 +4,8 @@ import org.example.parking.Vehiculo.Tipo;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertTrue;
 import static org.junit.Assert.assertNotEquals;
-
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import static org.junit.Assert.assertNotNull;
 
 public class EstacionamientoTest {
 
@@ -49,6 +45,7 @@ public class EstacionamientoTest {
         //Act
         double result = ticket.calcularPrecio();
         //Assert
+        assertNotNull(result);
         assertEquals(390.0, result);
     }
 
